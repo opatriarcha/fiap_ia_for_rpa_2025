@@ -49,4 +49,4 @@ def read_large_file_with_threads(filename, num_threads=4, chunk_size=1024 * 1024
     print(f"Total time elapsed: {total_time:.2f}s")
 
 if __name__ == "__main__":
-    read_large_file_with_threads("large_file.bin", num_threads=400)
+    read_large_file_with_threads("large_file.bin", num_threads=4)
